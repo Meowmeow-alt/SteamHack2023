@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>LHP Quiz</title>
+     <link href="style.css" rel="stylesheet">
+     <link href="chat.css" rel="stylesheet">
+     <script src="chat.js" defer></script> 
+</head>
+<body>
+
+     <!--Navigation bar-->
+     <br>
+     <nav class="opening">
+          <a href="./index.html" style="color:rgb(16, 86, 152)">Introduction</a>
+          <a href="./chat.html" style="color:rgb(255, 255, 255)">Chat with Me</a>
+          <a href="./quiz.html" style="color:rgb(16, 86, 152)">Take Quiz</a>
+          <a href="./contact.html" style="color:rgb(16, 86, 152)">Contact & Feedback</a>
+     </nav>
+
+     <!--Tips to use-->
+     <div class="tips">
+          <h1>Chat Area</h1>
+
+          <p class="guidance">
+               - You can interact with a friendly and intelligent chatbot that can answer your questions about the school and provide you useful information.
+               <br>- The chatbot is powered by artificial intelligence and natural language processing technologies, which enable it to understand your queries and respond accordingly.
+               <br>- Please use English to ask.
+               <br>- These are steps to follow:
+               <br>1) Click on the button at the bottom right corner.
+               <br>2) Click on "Type message" area.
+               <br>3) After that, click "Send" button.
+               <br>4) Wait for Chatbot's response.
+               <br>- Whether you are a prospective student, a parent, a teacher, an alumni or a visitor, you will find our chatbot helpful and engaging.
+          </p>
+     </div>
+
+     <!--Chatbot area-->
+     <script>
+          !(function () {
+               let e = document.createElement("script"),
+                    t = document.head || document.getElementsByTagName("head")[0];
+               (e.src = "chat.js"),
+                    (e.async = !0),
+                    (e.onload = () => {
+                         window.ChatbotWidget.default({
+                              rasaServerUrl: "http://localhost:5005/webhooks/rest/webhook",
+                              initialPayload: "",
+                              metadata: {},
+                              botAvatar: "https://cdn-icons-png.flaticon.com/512/8649/8649595.png",
+                              widgetColor: "rgb(255, 164, 164)",
+                              textColor: "white",
+                              userMsgBackgroundColor: "rgb(237, 76, 76)",
+                              botTitle: "Your Bot",
+                              botSubTitle: "",
+                              botMsgBackgroundColor: "#f3eaea",
+                              botResponseDelay: "",
+                              chatHeaderCss: {
+                                   textColor: "white",
+                                   backgroundColor: "rgb(237, 76, 76)",
+                                   enableBotAvatarBorder: true,
+                              },
+                              chatHeaderTextColor: "#4c1d95",
+                              botMsgColor: "black",
+                              embedded: false,
+                              buttonsCss: {
+                                   color: "rgb(255, 164, 164)",
+                                   backgroundColor: "#e1d7ff",
+                                   borderColor: "#4b5563",
+                                   borderWidth: "0px",
+                                   borderRadius: "999px",
+                                   hoverBackgroundColor: "white",
+                                   hoverColor: "#4b5563",
+                                   hoverborderWidth: "1px",
+                                   enableHover: false,
+                              },
+                         });
+                    }),
+                    t.insertBefore(e, t.firstChild);
+          })();
+     </script>
+     
+
+</body>
+</html>

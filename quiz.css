@@ -1,0 +1,73 @@
+body {
+     background-image: url(https://static.vecteezy.com/system/resources/previews/003/354/595/original/red-gradient-papercut-background-pastel-red-colors-with-shiny-effect-free-vector.jpg);
+}
+
+h1 {
+     text-align: center;
+     font-size: 70px;
+}
+
+.quizArea {
+     background-color: #f8e7e8;
+     width: 90%;
+     padding: 30px;
+     margin: 20px auto 0;
+     border-radius: 15px;
+     max-width: 600px;
+     height: auto;
+}
+
+.quizArea h2 {
+     font-size: 30px;
+     border-top: dashed 2px darkgray;
+     border-bottom: dashed 2px darkgray;
+     margin-bottom: 16px;
+}
+
+.quizArea h3 {
+     font-size: 22px;
+     margin-bottom: 16px;
+}
+
+.btn {
+     background: rgb(255, 224, 224);
+     border: 1px solid lightslategray;
+     border-radius: 15px;
+     width: 97%;
+     padding: 14px;
+     margin: 10px;
+     text-align: left;
+     cursor: pointer;
+     transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+     background: rgb(255, 195, 195);
+}
+
+.btn:disabled {
+     cursor: no-drop;
+}
+
+#next {
+     font-size: 20px;
+     padding: 10px 20px;
+     background-color: rgb(255, 157, 157);
+     cursor: pointer;
+     border-radius: 15px;
+     border: none;
+     margin-left: 53px;
+     margin-top: 10px;
+     width: 84%;
+     display: none;
+}
+
+.correct {
+     color: black;
+     background-color: rgb(88, 223, 122);
+}
+
+.incorrect {
+     color: black;
+     background-color: rgb(255, 103, 103);
+}

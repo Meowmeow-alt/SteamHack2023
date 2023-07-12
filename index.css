@@ -1,0 +1,68 @@
+body {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(https://wallpapers.com/images/high/simple-red-mountain-x469niij1cf08xrv.webp);
+     background-size: cover;
+     background-position: center;
+     width: 100%;
+     height: 100vh;
+}
+
+h1 {
+     font-size: 100px;
+     color: white;
+}
+
+p {
+     font-size: 18px;
+}
+
+.column {
+     flex-basis: 100%;
+}
+
+.page { 
+     display: flex;
+     height: 88%;
+     align-items: center;
+     margin: 20px 60px;
+}
+
+.card p {
+     font-size: 11px;
+}
+
+.card {
+     width: 300px;
+     height: 300px;
+     display: inline-block;
+     border-radius: 15px;
+     padding: 15px 25px;
+     box-sizing: border-box;
+     margin: 20px 30px;
+     background-position: center;
+     background-size: cover;
+     transition: all 0.3s;
+     opacity: 0.9;
+}
+
+.one {
+     color: white;
+     background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/4-thpt-chuyen-le-hong-phong-16577235813041410422854.jpg);
+}
+
+.two {
+     color: white;
+     background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/6-thpt-chuyen-le-hong-phong-1657723581442330542437.jpg);
+}
+
+.three {
+     color: white;
+     background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/2-thpt-chuyen-le-hong-phong-1657723581255892548271.jpeg);
+}
+
+.four {
+     background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/10-thpt-chuyen-le-hong-phong-1657723581475885844638.jpg);
+}
+
+.card:hover {
+     transform: translateY(-15px);
+}

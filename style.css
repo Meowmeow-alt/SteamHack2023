@@ -1,0 +1,24 @@
+* {
+     font-size: 25px;
+     font-family: Georgia;
+     margin: 0;
+     padding: 0;
+     line-height: 1.7em;
+}
+
+body {
+     background: rgb(252, 149, 149);
+}
+
+.opening {
+     text-indent: 50px;
+}
+
+.opening a {
+     display: inline-block; /* Lam no cach nhau hon */
+     text-decoration: none; /* Bo gach chan */
+}
+
+.center {
+     text-align: center;
+}

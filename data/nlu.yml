@@ -1,0 +1,194 @@
+version: "3.1"
+
+nlu:
+- intent: chitchat/greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - what’s up
+    - heyoo
+    - annhon
+    - hiii
+    - xin chao
+    - xinchao
+
+- intent: chitchat/compliment
+  examples: |
+    - You're smart
+    - You are very smart
+    - You are so funny
+    - You are intelligent
+    - I think you are very cute
+
+- intent: chitchat/thanks
+  examples: |
+    - Thank you
+    - Thanks
+    - I appreciate your help
+    - Thank you so much
+    - Awesome
+    - That's cool
+    - Fantastic
+    - Interesting
+    - Cool
+    - Nice
+    - thank you very much
+    - thanks a lot
+    - thanks a bunch
+
+- intent: chitchat/ask_name
+  examples: |
+    - What is your name?
+    - May I know your name?
+    - What do people call you?
+    - Do you have a name for yourself?
+    - how do i call you?
+    - what should i call you?
+    - how can i call you?
+    - whats your name?
+
+- intent: faq/established
+  examples: |
+    - when Le Hong Phong high school was found?
+    - In what year did Le Hong Phong high school come into existence?
+    - How long has Le Hong Phong high school been around?
+    - What is the founding date of Le Hong Phong high school?
+    - when le hong phong born?
+    - when the school open?
+    - when the school was built?
+    - when le hong phong school was constructed?
+
+- intent: faq/location
+  examples: |
+    - What is the location of Le Hong Phong high school?
+    - Where is Le Hong Phong high school?
+    - Where can Le Hong Phong high school be found?
+    - What is the address of Le Hong Phong high school?
+    - In which district and city is Le Hong Phong high school located?
+    - which street le hong phong located?
+    - where can i see le hong phong school?
+    - how can i get there?
+
+- intent: faq/alumni
+  examples: |
+    - Who are some famous alumni from Le Hong Phong high school?
+    - Which well-known people graduated from Le Hong Phong high school?
+    - What are the names of some notable former students of Le Hong Phong high school?
+    - Le Hong Phong high school has produced some famous people. Who are they?
+    - some famous graduated students of the school?
+    - who famous now and used to study at le hong phong?
+
+- intent: faq/headmaster
+  examples: |
+    - Who is the head master of Le Hong Phong highschool?
+    - What is the name of the person in charge of Le Hong Phong highschool?
+    - Who leads Le Hong Phong highschool as the principal?
+    - Le Hong Phong highschool has a head master. Who is it?
+    - Who is the principal of Le Hong Phong high school?
+    - who control le hong phong school?
+    - who manage the school?
+
+- intent: faq/original_name
+  examples: |
+    - What was Le Hong Phong high school original name?
+    - What did people call Le Hong Phong high school when it was first founded?
+    - Le Hong Phong high school has a different name now than before. What was it?
+    - The school changed its name later. What was its initial name?
+    - whats le hong phong school's name at the beginning?
+    - what is the school initial name?
+
+- intent: faq/majors
+  examples: |
+    - What are subjects that the school offers for majors?
+    - What are the fields of study to major in at the school?
+    - The school has classes for majors, each dedicated to a specific subject. What are they?
+    - What are the major choices for students?
+    - what can students learn there?
+    - what people study in le hong phong?
+    - what do students choose as majors?
+
+- intent: faq/architect
+  examples: |
+    - What is the name of the architect who designed the school building?
+    - Who was the person who planned and created the school building?
+    - The school building has a specific architect who made it. What is his name?
+    - Who is the designer of the school building?
+    - who design le hong phong school?
+    - who make le hong phong school?
+    - who build le hong phong school?
+
+- intent: chitchat/goodbye
+  examples: |
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - see you again
+    - see ya
+    - byeee
+
+- intent: chitchat/happy
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: chitchat/cheer_up
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - im sad
+
+- intent: chitchat/iamabot
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you real?
+    - who are you?
