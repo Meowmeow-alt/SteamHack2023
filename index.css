@@ -31,8 +31,8 @@ p {
 }
 
 .card {
-     width: 250px;
-     height: 250px;
+     width: 200px;
+     height: 200px;
      display: inline-block;
      border-radius: 15px;
      padding: 15px 25px;
