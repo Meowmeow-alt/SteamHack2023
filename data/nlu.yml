@@ -88,6 +88,8 @@ nlu:
     - Le Hong Phong high school has produced some famous people. Who are they?
     - some famous graduated students of the school?
     - who famous now and used to study at le hong phong?
+    - who is an alumni of le hong phong high school?
+    - name me an alumni
 
 - intent: faq/headmaster
   examples: |
@@ -127,6 +129,42 @@ nlu:
     - who design le hong phong school?
     - who make le hong phong school?
     - who build le hong phong school?
+
+- intent: faq/students
+  examples: |
+    - How many students does the school have?
+    - how many students at le hong phong school? 
+    - how many students are there at le hong phong school? 
+    - What is the total number of students enrolled in the school?
+    - How many students are currently studying at your school?
+    - What is the size of the student body at le hong phong high school?
+    - How many students attend your school in each grade?
+    - How large is the school’s student population?
+    - how many students are there?
+
+- intent: faq/clubs
+  examples: |
+    - how many clubs are there?
+    - how many clubs at le hong phong high school
+    - how many clubs are there?
+    - How many different clubs does Le Hong Phong High School offer?
+    - What is the total number of clubs that Le Hong Phong High School has?
+    - How many clubs are available for students to join at Le Hong Phong High School?
+    - How many types of clubs are there at Le Hong Phong High School?
+    - How many club options are there for students at Le Hong Phong High School?
+    - what extracurricular activities students join in?
+    - what are the clubs and teams at the school?
+    - what can students join to pursue their interests and talents outside the classroom?
+
+- intent: faq/clubs_detail
+  examples: |
+    - name me some of le hong phong clubs
+    - name me clubs
+    - What are some of the clubs that Le Hong Phong High School has?
+    - What are some examples of clubs at Le Hong Phong High School?
+    - What are some of the club names at Le Hong Phong High School?
+    - Which clubs can you tell me about at Le Hong Phong High School?
+    - Which clubs are there at Le Hong Phong High School?
 
 - intent: chitchat/goodbye
   examples: |

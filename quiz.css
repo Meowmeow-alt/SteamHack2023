@@ -4,7 +4,7 @@ body {
 
 h1 {
      text-align: center;
-     font-size: 70px;
+     font-size: 60px;
 }
 
 .quizArea {
@@ -18,7 +18,7 @@ h1 {
 }
 
 .quizArea h2 {
-     font-size: 30px;
+     font-size: 25px;
      border-top: dashed 2px darkgray;
      border-bottom: dashed 2px darkgray;
      margin-bottom: 16px;
@@ -30,6 +30,7 @@ h1 {
 }
 
 .btn {
+     font-size: 20px;
      background: rgb(255, 224, 224);
      border: 1px solid lightslategray;
      border-radius: 15px;

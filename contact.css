@@ -32,19 +32,15 @@ background-color: #05935f;
 }
 
 .margin {
-     margin: 20px;
+     margin: 18px;
 }
 
 h1 {
      text-align: center;
-     font-size: 70px;
+     font-size: 60px;
 }
 
 .font {
-     background: white;
-     max-width: 60%;
      font-size: 25px;
-     margin-left: 18%;
-     padding: 35px;
      border-radius: 30px;
 }
