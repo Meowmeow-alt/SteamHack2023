@@ -54,6 +54,15 @@ const questions = [
           ]
      },
      {
+          question: "How many students does the school have?",
+          answer: [
+               { text: "1036", correct: false },
+               { text: "2045", correct: true },
+               { text: "3084", correct: false },
+               { text: "4022", correct: false },
+          ]
+     },
+     {
           question: "Who is the designer of the school building?",
           answer: [
                { text: "Ernest Hebrard de Villeneuve", correct: true },
@@ -124,7 +133,7 @@ function chooseAnswer(choice) {
 
 function showScore() {
      resetState();
-     questionElement.innerHTML = `You get ${score} points out of ${questions.length} :>`;
+     questionElement.innerHTML = `You got ${score} points out of ${questions.length} :> You can ask Chatbot questions that you answered wrong.`;
      nextButton.innerHTML = "Play again? ^-^";
      nextButton.style.display = "block"
 }
