@@ -60,111 +60,140 @@ nlu:
 
 - intent: faq/established
   examples: |
-    - when Le Hong Phong high school was found?
-    - In what year did Le Hong Phong high school come into existence?
-    - How long has Le Hong Phong high school been around?
-    - What is the founding date of Le Hong Phong high school?
-    - when le hong phong born?
-    - when the school open?
-    - when the school was built?
-    - when le hong phong school was constructed?
+    - found
+    - year come into existence
+    - How long been around
+    - the founding date
+    - when born
+    - when open
+    - when was built
+    - when was constructed
 
 - intent: faq/location
   examples: |
-    - What is the location of Le Hong Phong high school?
-    - Where is Le Hong Phong high school?
-    - Where can Le Hong Phong high school be found?
-    - What is the address of Le Hong Phong high school?
-    - In which district and city is Le Hong Phong high school located?
-    - which street le hong phong located?
-    - where can i see le hong phong school?
-    - how can i get there?
+    - the location
+    - where is
+    - Where can be found
+    - the address
+    - district and city located
+    - street located
+    - where can i see
+    - how can i get there
+    - what is the location
 
 - intent: faq/alumni
   examples: |
-    - Who are some famous alumni from Le Hong Phong high school?
-    - Which well-known people graduated from Le Hong Phong high school?
-    - What are the names of some notable former students of Le Hong Phong high school?
-    - Le Hong Phong high school has produced some famous people. Who are they?
-    - some famous graduated students of the school?
-    - who famous now and used to study at le hong phong?
-    - who is an alumni of le hong phong high school?
+    - some famous alumni
+    - well-known people graduated from Le Hong Phong high school
+    - notable former students
+    - Le Hong Phong high school has produced some famous people
+    - some famous graduated students
+    - famous now and used to study at le hong phong
+    - an alumni of le hong phong high school
     - name me an alumni
+    - a famous alumni
+    - an alumni that famous now
 
 - intent: faq/headmaster
   examples: |
-    - Who is the head master of Le Hong Phong highschool?
-    - What is the name of the person in charge of Le Hong Phong highschool?
-    - Who leads Le Hong Phong highschool as the principal?
-    - Le Hong Phong highschool has a head master. Who is it?
-    - Who is the principal of Le Hong Phong high school?
-    - who control le hong phong school?
-    - who manage the school?
+    - the head master
+    - name of the person in charge of Le Hong Phong highschool
+    - lead as the principal
+    - Le Hong Phong highschool has a head master
+    - the principal
+    - control le hong phong school
+    - manage the school
+    - principal of high school
+    - the school's principal
+    - le hong phong high school's principal
+    - name me the principal of the school
+    - name me the head master
+    - head master of the school
+    - principal of the school
+    - the headmaster of le hong phong
+    - the person who is the headmaster of the school
 
 - intent: faq/original_name
   examples: |
-    - What was Le Hong Phong high school original name?
-    - What did people call Le Hong Phong high school when it was first founded?
-    - Le Hong Phong high school has a different name now than before. What was it?
-    - The school changed its name later. What was its initial name?
-    - whats le hong phong school's name at the beginning?
-    - what is the school initial name?
+    - original name
+    - people call when the school first founded
+    - Le Hong Phong high school different name
+    - initial name
+    - name at the beginning
+    - the school initial name
+    - the school old name
+    - the old name of the school
+    - the first name of school
+    - people call the school at the beginning
+    - the school's first name
 
 - intent: faq/majors
   examples: |
-    - What are subjects that the school offers for majors?
-    - What are the fields of study to major in at the school?
-    - The school has classes for majors, each dedicated to a specific subject. What are they?
-    - What are the major choices for students?
-    - what can students learn there?
-    - what people study in le hong phong?
-    - what do students choose as majors?
+    - subjects that the school offers for majors
+    - the fields of study to major in at the school
+    - classes for majors
+    - the major choices
+    - students learn
+    - people study
+    - choose as majors
+    - subjects for students
+    - the subjects can major in
+    - majors can choose
+    - majors for people
+    - subjects for students to major in
 
 - intent: faq/architect
   examples: |
-    - What is the name of the architect who designed the school building?
-    - Who was the person who planned and created the school building?
-    - The school building has a specific architect who made it. What is his name?
-    - Who is the designer of the school building?
-    - who design le hong phong school?
-    - who make le hong phong school?
-    - who build le hong phong school?
+    - the name of the architect who designed the school building
+    - the person who planned and created the school building
+    - The school building has a specific architect who made it
+    - the designer of the school building
+    - design le hong phong school
+    - make le hong phong school
+    - build le hong phong school
+    - the architect of the school
+    - the school was designed by whom
+    - the school was built by whom
+    - design the building
+    - create the school
+    - the creator of le hong phong
+    - the architect build
+    - the architect design
 
 - intent: faq/students
   examples: |
-    - How many students does the school have?
-    - how many students at le hong phong school? 
-    - how many students are there at le hong phong school? 
-    - What is the total number of students enrolled in the school?
-    - How many students are currently studying at your school?
-    - What is the size of the student body at le hong phong high school?
-    - How many students attend your school in each grade?
-    - How large is the school’s student population?
-    - how many students are there?
+    - students the school have
+    - students at le hong phong school
+    - students are there
+    - total number of students enrolled
+    - students currently study
+    - the size of the student body at le hong phong high school
+    - students attend in each grade
+    - the school’s student population
+    - the number of students
 
 - intent: faq/clubs
   examples: |
-    - how many clubs are there?
-    - how many clubs at le hong phong high school
-    - how many clubs are there?
-    - How many different clubs does Le Hong Phong High School offer?
-    - What is the total number of clubs that Le Hong Phong High School has?
-    - How many clubs are available for students to join at Le Hong Phong High School?
-    - How many types of clubs are there at Le Hong Phong High School?
-    - How many club options are there for students at Le Hong Phong High School?
-    - what extracurricular activities students join in?
-    - what are the clubs and teams at the school?
-    - what can students join to pursue their interests and talents outside the classroom?
-
-- intent: faq/clubs_detail
-  examples: |
+    - clubs are there
+    - clubs at le hong phong high school
+    - different clubs offer
+    - clubs that Le Hong Phong High School has
+    - available clubs to join
+    - types of clubs
+    - club options
+    - extracurricular activities join in
+    - the clubs and teams at the school
+    - join to pursue interests and talents outside the classroom
+    - kind of teams
+    - name me teams
+    - name me clubs at le hong phong
     - name me some of le hong phong clubs
-    - name me clubs
-    - What are some of the clubs that Le Hong Phong High School has?
-    - What are some examples of clubs at Le Hong Phong High School?
-    - What are some of the club names at Le Hong Phong High School?
-    - Which clubs can you tell me about at Le Hong Phong High School?
-    - Which clubs are there at Le Hong Phong High School?
+    - some examples of clubs
+    - some of the club names at Le Hong Phong High School
+    - Which clubs can you tell me about
+    - Which clubs are there
+    - type of clubs
+    - kind of teams
 
 - intent: chitchat/goodbye
   examples: |
