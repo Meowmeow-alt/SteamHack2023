@@ -3,9 +3,9 @@
 
 ## **CONTENTS**
 
-- [Introduction](#introduction)
-- [Installation and Activate](#installation-and-activate)
-- [My Own Experience](#my-own-experience)
+- [INTRODUCTION](#>-introduction)
+- [INSTALLATION AND ACTIVATION](#>-installation-and-activation)
+- [MY OWN EXPERIENCE](#>-my-own-experience) 
 
 ---
 
@@ -29,7 +29,7 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 
 ---
 
-## **> INSTALLATION AND ACTIVATE**
+## **> INSTALLATION AND ACTIVATION**
 
 ### 1) Installation
 - My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
@@ -72,7 +72,7 @@ Last, install Rasa!
 pip install rasa
 ```
 
-### 2) Activate
+### 2) Activation
 
 Create a folder name "Rasa" for all Rasa Chatbot's files.
 
