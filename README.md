@@ -21,6 +21,7 @@ Please feel free to send me feedback about my website by access the "Contact & F
 .
 .
 .
+---
 
 ## **> Installation and Activate**
 
@@ -91,6 +92,7 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 .
 .
 .
+---
 
 ## **> My Own Experience** 
 
