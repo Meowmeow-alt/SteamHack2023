@@ -94,9 +94,7 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 
 ## **> My Own Experience** 
 
-For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. The first step, I spent time brainstorming ideas for the project, I chose the direction of developing Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
-
-- Idea: Chatbot FAQ about Le Hong Phong school
+For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. In the first step, I spent time brainstorming ideas for the project, I chose the direction of developing a Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
 
 In order to allocate time reasonably, I have made work plans to do each day:
 
@@ -108,8 +106,6 @@ In order to allocate time reasonably, I have made work plans to do each day:
 - Day 8: Train Chatbot Rasa and integrate it into Web UI.
 - Day 9: Test and fix bugs continuously to make sure Chatbot runs fine.
 - Day 10: Deploy Web and continue testing.
-- Day 11: Record video, submit the work.
+- Day 11: Record video and submit the work.
 
-In the process of creating my own projects, I have found that even though I plan ahead, there were times when I have to be flexible. About the interface of the Web, I had to change it 3 times to choose the best one. I learned how to plan clearly without being rigid. In just 11 short days, I feel like I have improved significantly in many skills. I faced difficulties and learned to deal with them, being patient when I had to fix a mistake over and over.
-
-STEAMHacks 2023 is really a meaningful competition for creating a healthy and competitive environment for students to practice, challenge, improve and develop themselves. In addition, it also helps us to meet new friends who have the same passion and interests as us.
+One of the biggest challenges I faced in creating my project was installing and integrating the Rasa Chatbot into my website. Because I use a Macbook, I had to download many libraries that are not available or compatible with Apple or Linux systems. For example, I had to install Homebrew, Python 3.10, and Rasa Open Source. Moreover, I had to choose the right versions of the libraries and requirements to avoid errors and conflicts. This took me a lot of time and effort to figure out and fix. However, I am glad that I learned new things and how to overcome challenges because it helped me improve my skills and confidence in coding and problem-solving.
