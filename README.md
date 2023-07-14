@@ -10,13 +10,13 @@ The web has 4 pages (languages in use: html, css, javascript):
 - "Homepage": Page to introduce the web.
 - "Chat with Me": Page contains Chatbot and information about how to use Chatbot.
 - "Take Quiz": Page about quizzes, sample questions for users to ask Chatbot.
-- "Contact & Feedback": Page that illustrates my topic inspiration and area for user's feedback.
+- "Contact & Feedback": Page that illustrates my topic inspiration and area for user feedback.
 
 You can interact with a friendly and intelligent chatbot that can answer your questions about my school. The Chatbot is powered by artificial intelligence and natural language processing technologies, which enable it to understand your queries and respond accordingly. Whether you are a prospective student, a parent, a teacher, an alumni or a visitor, you will find our chatbot helpful and engaging.
 
 After that, you can visit the "Take Quiz" page on my website to see how many points you can get from the information you have just asked the Chatbot. These questions are also samples for you to ask the Chatbot if you would like.
 
-Please feel free to send me feedback about my website by access the "Contact & Feedback" page - the last page on the navigation bar. Your message will be automatically sent to my email. If it is a question, I will give you the answer as quick as possible. Please be patient and wait for my reply! Thank you so much!
+Please feel free to send me feedback about my website by accessing the "Contact & Feedback" page - the last page on the navigation bar. Your message will be automatically sent to my email. If it is a question, I will give you the answer as quickly as possible. Please be patient and wait for my reply! Thank you so much!
 
 .
 .
@@ -30,37 +30,40 @@ Please feel free to send me feedback about my website by access the "Contact & F
 
 - You can see the tutorial to download it on Rasa Docs: [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
 
-- But if your computer runs on macOS, installation process can get more difficult and complicated.
+- But if your computer runs on macOS, the installation process can get more difficult and complicated.
 (Just like my Macbook, so besides reading Rasa docs, please follow these steps.)
 
-First, install homebrew.
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-In case the PATH variable had not been automatically setup, run:
-```
-export PATH=/opt/homebrew/bin:$PATH
-export PATH="$HOME/.cargo/bin:$PATH"
-```
-Second, install Openblas.
-```
-brew reinstall openblas
-```
-Third, install sickit-learn
-```
-pip install scikit-learn
-```
-Fourth, create environment.
+- First, install homebrew and miniforge for MacOS on this page: [This is the link](https://brew.sh/)
+
+Second, create the environment.
 ```
 conda create -n steamhack python=3.10
 ```
-Then, activate environment
+Third, activate the environment.
 ```
 conda activate steamhack
 ```
-Install all neccessary libraries with a specific version
+Fourth, install openblas.
+```
+brew install openblas
+export OPENBLAS=$(/opt/homebrew/bin/brew --prefix openblas)
+export CFLAGS="-falign-functions=8 ${CFLAGS}"
+```
+Fifth, install sickit-learn.
+```
+pip install scikit-learn
+```
+Sixth, install scipy.
+```
+brew install scipy
+```
+Then, install all neccessary libraries with a specific version
 ```
 pip install -r requirements.txt
+```
+Last, install Rasa!
+```
+pip install rasa
 ```
 
 ### 2) Activate
