@@ -3,15 +3,15 @@
 
 ## **CONTENTS**
 
-- [INTRODUCTION](#>-introduction)
-- [INSTALLATION AND ACTIVATION](#>-installation-and-activation)
-- [MY OWN EXPERIENCE](#>-my-own-experience) 
+- [INTRODUCTION](#introduction)
+- [INSTALLATION AND ACTIVATION](#installation-and-activation)
+- [MY OWN EXPERIENCE](#my-own-experience) 
 
 ---
 
 ![Alt text](images/img.png)
 
-## **> INTRODUCTION** 
+## **INTRODUCTION** 
 
 
 The web has 4 pages (languages in use: html, css, javascript):
@@ -29,7 +29,7 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 
 ---
 
-## **> INSTALLATION AND ACTIVATION**
+## **INSTALLATION AND ACTIVATION**
 
 ### 1) Installation
 - My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
@@ -100,7 +100,7 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 
 ---
 
-## **> MY OWN EXPERIENCE** 
+## **MY OWN EXPERIENCE** 
 
 For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. In the first step, I spent time brainstorming ideas for the project, I chose the direction of developing a Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
 
