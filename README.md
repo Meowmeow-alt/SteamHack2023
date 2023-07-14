@@ -90,7 +90,7 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 .
 .
 
-## **> My own experience** 
+## **> My Own Experience** 
 
 For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. The first step, I spent time brainstorming ideas for the project, I chose the direction of developing Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
 
