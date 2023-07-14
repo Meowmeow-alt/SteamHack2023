@@ -1,4 +1,4 @@
-# Le Hong Phong Highschool for the Gifted
+# Le Hong Phong Highschool for the Gifted [![Deployed Website](https://img.shields.io/badge/Deployed%20Website-blue)](https://meowmeow-alt.github.io/SteamHack2023/index.html)
 ---
 
 ## **CONTENTS**
