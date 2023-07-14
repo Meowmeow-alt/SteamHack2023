@@ -82,3 +82,34 @@ To activate it on the website, use this command and let it run.
 rasa run -m models --enable-api --cors "*" --debug
 ```
 Now, the Chatbot should be available on server "http://localhost:5005/webhooks/rest/webhook"
+
+## **> My own experience** 
+
+![Alt text](images/img1.png)
+
+For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. The first step, I spent time brainstorming ideas for the project, I chose the direction of developing Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
+
+- Idea: Chatbot FAQ about Le Hong Phong school
+
+The web has 4 pages (languages in use: html, css, javascript):
+
+- "Homepage": Page to introduce the web.
+- "Chat with Me": Page contains Chatbot and information about how to use Chatbot.
+- "Take Quiz": Page about quizzes, sample questions for users to ask Chatbot.
+- "Contact & Feedback": Page that illustrates my topic inspiration and area for user's feedback.
+
+In order to allocate time reasonably, I have made work plans to do each day:
+
+Day 1 and 2: Complete ideas and plans.
+Day 3, 4: Write the basic framework of the Web using html, css.
+Day 5-6: Complete the opening and closing pages of the Web.
+Day 6: Complete the “Take quiz” page.
+Day 7: Download necessary resources to train Chatbot Rasa on Vscode.
+Day 8: Train Chatbot Rasa and integrate it into Web UI.
+Day 9: Test and fix bugs continuously to make sure Chatbot runs fine.
+Day 10: Deploy Web and continue testing.
+Day 11: Record video, submit the work.
+
+In the process of creating my own projects, I have found that even though I plan ahead, there were times when I have to be flexible. About the interface of the Web, I had to change it 3 times to choose the best one. I learned how to plan clearly without being rigid. In just 11 short days, I feel like I have improved significantly in many skills. I faced difficulties and learned to deal with them, being patient when I had to fix a mistake over and over.
+
+STEAMHacks 2023 is really a meaningful competition for creating a healthy and competitive environment for students to practice, challenge, improve and develop themselves. In addition, it also helps us to meet new friends who have the same passion and interests as us.
