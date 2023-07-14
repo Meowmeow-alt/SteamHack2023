@@ -20,11 +20,11 @@
 ## **> Installation and Activate**
 
 ### 1) Installation
-My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
+- My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
 
-You can see the tutorial to download it on Rasa Docs: [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
+- You can see the tutorial to download it on Rasa Docs: [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
 
-But if your computer runs on macOS, installation process can get more difficult and complicated.
+- But if your computer runs on macOS, installation process can get more difficult and complicated.
 (Just like my Macbook, so besides reading Rasa docs, please follow these steps.)
 
 First, install homebrew.
