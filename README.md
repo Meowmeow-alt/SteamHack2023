@@ -4,17 +4,19 @@
 
 ## **> Introduction** 
 
-- This website is about Le Hong Phong High School for the Gifted - my school. Founded in 1927 by the French colonizers, the school has a rich history and a tradition of excellence in education. The school is located in District 5 of Ho Chi Minh City and the campus covers a large area, with modern facilities and a beautiful garden.
 
-- Students are talented and hardworking. They excel not only in academics, but also in extracurricular activities, such as sports, arts, music, clubs and social services. They have also won many awards and honors in national and international competitions.
+The web has 4 pages (languages in use: html, css, javascript):
 
-- The school is proud of its alumni. Some of the notable alumni include Nguyen Cao Ky (former Prime Minister of South Vietnam), Tran Dai Quang (former President of Vietnam), Nguyen Tan Dung (former Prime Minister of Vietnam), Nguyen Xuan Phuc (current Prime Minister of Vietnam), Le Thanh Hai (former Secretary of Ho Chi Minh City Party Committee), Nguyen Thien Nhan (current Secretary of Ho Chi Minh City Party Committee), Nguyen Thanh Phong (current Chairman of Ho Chi Minh City People's Committee) and many others.
+- "Homepage": Page to introduce the web.
+- "Chat with Me": Page contains Chatbot and information about how to use Chatbot.
+- "Take Quiz": Page about quizzes, sample questions for users to ask Chatbot.
+- "Contact & Feedback": Page that illustrates my topic inspiration and area for user's feedback.
 
-- You can interact with a friendly and intelligent chatbot that can answer your questions about my school. The Chatbot is powered by artificial intelligence and natural language processing technologies, which enable it to understand your queries and respond accordingly. Whether you are a prospective student, a parent, a teacher, an alumni or a visitor, you will find our chatbot helpful and engaging.
+You can interact with a friendly and intelligent chatbot that can answer your questions about my school. The Chatbot is powered by artificial intelligence and natural language processing technologies, which enable it to understand your queries and respond accordingly. Whether you are a prospective student, a parent, a teacher, an alumni or a visitor, you will find our chatbot helpful and engaging.
 
-- After that, you can visit the "Take Quiz" page on my website to see how many points you can get from the information you have just asked the Chatbot. These questions are also samples for you to ask the Chatbot if you would like.
+After that, you can visit the "Take Quiz" page on my website to see how many points you can get from the information you have just asked the Chatbot. These questions are also samples for you to ask the Chatbot if you would like.
 
-- Please feel free to send me feedback about my website by access the "Contact & Feedback" page - the last page on the navigation bar. Your message will be automatically sent to my email. If it is a question, I will give you the answer as quick as possible. Please be patient and wait for my reply! Thank you so much!
+Please feel free to send me feedback about my website by access the "Contact & Feedback" page - the last page on the navigation bar. Your message will be automatically sent to my email. If it is a question, I will give you the answer as quick as possible. Please be patient and wait for my reply! Thank you so much!
 
 .
 .
@@ -95,13 +97,6 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 For round 1, I have 11 days (from the day I received the topic to the deadline for submission) to prepare for my project. The first step, I spent time brainstorming ideas for the project, I chose the direction of developing Chatbot integrated into the web to interact with users. After that, I limited my ideas to FAQ form, so the data that Chatbot can answer revolves around one main topic, and besides that, only basic, uncomplicated conversations.
 
 - Idea: Chatbot FAQ about Le Hong Phong school
-
-The web has 4 pages (languages in use: html, css, javascript):
-
-- "Homepage": Page to introduce the web.
-- "Chat with Me": Page contains Chatbot and information about how to use Chatbot.
-- "Take Quiz": Page about quizzes, sample questions for users to ask Chatbot.
-- "Contact & Feedback": Page that illustrates my topic inspiration and area for user's feedback.
 
 In order to allocate time reasonably, I have made work plans to do each day:
 
