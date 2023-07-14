@@ -45,17 +45,14 @@ p {
 }
 
 .one {
-     color: white;
      background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/4-thpt-chuyen-le-hong-phong-16577235813041410422854.jpg);
 }
 
 .two {
-     color: white;
      background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/6-thpt-chuyen-le-hong-phong-1657723581442330542437.jpg);
 }
 
 .three {
-     color: white;
      background-image: url(https://sohanews.sohacdn.com/160588918557773824/2022/7/13/2-thpt-chuyen-le-hong-phong-1657723581255892548271.jpeg);
 }
 
@@ -65,4 +62,16 @@ p {
 
 .card:hover {
      transform: translateY(-15px);
+}
+
+.card a {
+     font-weight: bold;
+     color: white;
+     text-decoration: none;
+}
+
+.four a {
+     font-weight: bold;
+     color: black;
+     text-decoration: none;
 }

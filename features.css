@@ -1,0 +1,23 @@
+body {
+     background-image: url(https://static.vecteezy.com/system/resources/previews/003/354/599/original/red-gradient-papercut-background-pastel-red-colors-with-shiny-effect-free-vector.jpg);
+}
+
+.opening button {
+     padding-left: 20px;
+     padding-right: 20px;
+     border: none;
+     border-radius: 10px;
+}
+
+h1 {
+     font-size: 60px;
+}
+
+.text {
+     background: white;
+     border-radius: 20px;
+     margin-top: 22px;
+     margin-left: 18%;
+     margin-right: 18%;
+     padding: 30px;
+}

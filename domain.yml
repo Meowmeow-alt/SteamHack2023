@@ -50,11 +50,9 @@ responses:
   This number may vary from year to year, depending on the admission and graduation rates."
 
   utter_faq/clubs:
-  - text: "There are more than 20 clubs at our school, covering a wide range of fields and activities"
-
-  utter_faq/clubs_detail:
-  - text: "Here are some of them: The Student Council, the School Newspaper, the School Choir, the School Orchestra, the 
-  School Drama Club, the School Debate Team, the School Science Club, the School Dance/Cheer,..."
+  - text: "There are more than 20 clubs at our school, covering a wide range of fields and activities: The Student Council, 
+  the School Newspaper, the School Choir, the School Orchestra, the School Drama Club, the School Debate Team, the School 
+  Science Club, the School Dance/Cheer,..."
 
   utter_chitchat/cheer_up:
   - text: "I hope you feel better somehow..."
