@@ -27,9 +27,6 @@ After that, you can visit the "Take Quiz" page on my website to see how many poi
 
 Please feel free to send me feedback about my website by accessing the "Contact & Feedback" page - the last page on the navigation bar. Your message will be automatically sent to my email. If it is a question, I will give you the answer as quickly as possible. Please be patient and wait for my reply! Thank you so much!
 
-.
-.
-.
 ---
 
 ## **> Installation and Activate**
@@ -101,9 +98,6 @@ rasa run -m models --enable-api --cors "*" --debug
 ```
 Now, the Chatbot should be available on server "http://localhost:5005/webhooks/rest/webhook"
 
-.
-.
-.
 ---
 
 ## **> My Own Experience** 
