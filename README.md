@@ -1,8 +1,13 @@
 # Le Hong Phong Highschool for the Gifted
+---
+
+## **CONTENTS**
 
 - [Introduction](#introduction)
 - [Installation and Activate](#installation-and-active)
 - [My Own Experience](#my-own-experience)
+
+---
 
 ![Alt text](images/img.png)
 
