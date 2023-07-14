@@ -1,4 +1,4 @@
-# Chatbot FAQ about Le Hong Phong Highschool for the Gifted
+# Le Hong Phong Highschool for the Gifted
 
 ![Alt text](images/img.png)
 
