@@ -1,5 +1,9 @@
 # Le Hong Phong Highschool for the Gifted
 
+- 1. [Introduction](#introduction)
+- 2. [Installation and Activate](#installation-and-active)
+- 3.[My Own Experience](#my-own-experience)
+
 ![Alt text](images/img.png)
 
 ## **> Introduction** 
