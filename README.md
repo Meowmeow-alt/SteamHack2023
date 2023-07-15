@@ -4,8 +4,11 @@
 ## **CONTENTS**
 
 - [INTRODUCTION](#introduction)
+  
 - [INSTALLATION AND ACTIVATION](#installation-and-activation)
+  
 - [MY OWN EXPERIENCE](#my-own-experience)
+  
 - [VIDEO DEMO WEB](video-demo-web)
 
 ---
