@@ -1,4 +1,4 @@
-# Le Hong Phong Highschool for the Gifted [![> My Website](https://img.shields.io/badge/Deployed%20Website-blue)](https://meowmeow-alt.github.io/SteamHack2023/index.html)
+# Quiz and FAQ Chatbot about Le Hong Phong Highschool for the Gifted [![> My Website](https://img.shields.io/badge/Deployed%20Website-blue)](https://meowmeow-alt.github.io/SteamHack2023/index.html)
 ---
 
 ## **CONTENTS**
@@ -40,14 +40,14 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 ### 1) Installation
 - My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
 
-- You can see the tutorial to download it on Rasa Docs: [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
+- You can see the tutorial to download it on Rasa Docs if your computer runs on Windows (I use Macbook, so I don't know much about this process on Windows but it is not very hard, please just follow Rasa Docs): [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
 
 - But if your computer runs on macOS, the installation process can get more difficult and complicated.
 (Just like my Macbook, so besides reading Rasa docs, please follow these steps.)
 
-- First, install homebrew and miniforge for MacOS on this page: [This is the link](https://brew.sh/)
+First, install homebrew and miniforge for MacOS on this page: [This is the link](https://brew.sh/)
 
-Second, create the environment.
+Second, create the environment with conda.
 ```
 conda create -n steamhack python=3.10
 ```
