@@ -175,4 +175,4 @@ One of the biggest challenges I faced in creating my project was installing and 
 
 - [LINK VIDEO](https://youtu.be/VZZRiaeZZho)
 
-![Alt text](imgvid.png)
+![Alt text](images/imgvid.png)
