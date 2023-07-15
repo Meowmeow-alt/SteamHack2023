@@ -100,6 +100,54 @@ rasa run -m models --enable-api --cors "*" --debug
 ```
 Now, the Chatbot should be available on server "http://localhost:5005/webhooks/rest/webhook"
 
+In chat.html file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines).
+
+```
+     <script>
+          !(function () {
+               let e = document.createElement("script"),
+                    t = document.head || document.getElementsByTagName("head")[0];
+               (e.src = "chat.js"),
+                    (e.async = !0),
+                    (e.onload = () => {
+                         window.ChatbotWidget.default({
+                              rasaServerUrl: "http://localhost:5005/webhooks/rest/webhook",
+                              initialPayload: "",
+                              metadata: {},
+                              botAvatar: "https://cdn-icons-png.flaticon.com/512/8649/8649595.png",
+                              widgetColor: "rgb(255, 164, 164)",
+                              textColor: "white",
+                              userMsgBackgroundColor: "rgb(237, 76, 76)",
+                              botTitle: "Your Bot",
+                              botSubTitle: "",
+                              botMsgBackgroundColor: "#f3eaea",
+                              botResponseDelay: "",
+                              chatHeaderCss: {
+                                   textColor: "white",
+                                   backgroundColor: "rgb(237, 76, 76)",
+                                   enableBotAvatarBorder: true,
+                              },
+                              chatHeaderTextColor: "#4c1d95",
+                              botMsgColor: "black",
+                              embedded: false,
+                              buttonsCss: {
+                                   color: "rgb(255, 164, 164)",
+                                   backgroundColor: "#e1d7ff",
+                                   borderColor: "#4b5563",
+                                   borderWidth: "0px",
+                                   borderRadius: "999px",
+                                   hoverBackgroundColor: "white",
+                                   hoverColor: "#4b5563",
+                                   hoverborderWidth: "1px",
+                                   enableHover: false,
+                              },
+                         });
+                    }),
+                    t.insertBefore(e, t.firstChild);
+          })();
+     </script>
+```
+
 ---
 
 ## **MY OWN EXPERIENCE** 
