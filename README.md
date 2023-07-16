@@ -1,4 +1,6 @@
 # Quiz and FAQ Chatbot about Le Hong Phong Highschool for the Gifted [![> My Website](https://img.shields.io/badge/Deployed%20Website-blue)](https://meowmeow-alt.github.io/SteamHack2023/index.html)
+
+The Chatbot have not been available on my deployed website so if you want to use it, please follow the instructions below.
 ---
 
 ## **CONTENTS**
