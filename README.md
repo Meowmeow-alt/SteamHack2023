@@ -92,7 +92,7 @@ rasa run -m models --enable-api --cors "*" --debug
 ```
 Now, the Chatbot should be available on server "http://localhost:5005/webhooks/rest/webhook"
 
-In [`chat.html`](chat.html) file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines).
+In [`chat.html`](chat.html) file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines): [This is the link of the creator](https://github.com/JiteshGaikwad/Chatbot-Widget/blob/Widget2.0/docs/instructions.md)
 
 ```
      <script>
