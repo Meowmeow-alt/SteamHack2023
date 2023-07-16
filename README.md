@@ -45,7 +45,9 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 - But if your computer runs on macOS, the installation process can get more difficult and complicated.
 (Just like my Macbook, so besides reading Rasa docs, please follow these steps.)
 
-First, install homebrew and miniforge for MacOS on this page: [This is the link](https://brew.sh/)
+First, install homebrew and miniforge for MacOS on this page: 
+[This is the link for homebrew](https://brew.sh/)
+[This is the link for miniforge]([https://brew.sh/](https://formulae.brew.sh/cask/miniforge))
 
 Second, create the environment with conda.
 ```
@@ -57,13 +59,11 @@ conda activate steamhack
 ```
 Fourth, install openblas.
 ```
-brew install openblas
-export OPENBLAS=$(/opt/homebrew/bin/brew --prefix openblas)
-export CFLAGS="-falign-functions=8 ${CFLAGS}"
+conda install openblas
 ```
 Fifth, install sickit-learn.
 ```
-pip install scikit-learn
+conda install scikit-learn
 ```
 Last, install Rasa!
 ```
@@ -92,7 +92,7 @@ rasa run -m models --enable-api --cors "*" --debug
 ```
 Now, the Chatbot should be available on server "http://localhost:5005/webhooks/rest/webhook"
 
-In chat.html file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines).
+In [`chat.html`](chat.html) file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines).
 
 ```
      <script>
