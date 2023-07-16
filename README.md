@@ -157,6 +157,10 @@ If you want to train the Chatbot using my data
 ```
 rasa train
 ```
+### 3) Run Web UI
+
+1. Install VsCode's extension `Live Server - by Ritwick Dey`
+2. Right click on `index.html`, then click on `Open with Live Server`
 
 ---
 
