@@ -47,7 +47,7 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 
 First, install homebrew and miniforge for MacOS on this page: 
 - [This is the link for homebrew](https://brew.sh/)
-- [This is the link for miniforge]([https://brew.sh/](https://formulae.brew.sh/cask/miniforge))
+- [This is the link for miniforge](https://formulae.brew.sh/cask/miniforge)
 
 Second, create the environment with conda.
 ```
