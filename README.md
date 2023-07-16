@@ -51,27 +51,44 @@ But if your computer runs on macOS, the installation process can get more diffic
 1. Install homebrew and miniforge for MacOS on this page: 
 - [This is the link for homebrew](https://brew.sh/)
 - [This is the link for miniforge](https://formulae.brew.sh/cask/miniforge)
-
-2. Create the environment with conda.
+2. Open VsCode Terminal, make sure there is no `(base)` before path, for example `(base) jennifertran@MacBook-Air-cua-Tran Hack1`. If there was this `(base)`, run `conda deactivate`
+3. Create the environment with conda
 ```
 conda create -n steamhack python=3.10
 ```
-3. activate the environment.
+4. Activate the environment
 ```
 conda activate steamhack
 ```
-4. install openblas.
+5. Install Rasa
+```
+pip install rasa==3.6.2 --no-deps
+```
+6. Install Rasa dependencies
+```
+pip install -r requirements.txt
+```
+7. Install openblas using conda
 ```
 conda install openblas
 ```
-5. install sickit-learn.
+8. Install numpy using conda
+```
+conda install numpy
+```
+9. Install scipy using conda
+```
+conda install scipy
+```
+10. Install scikit-learn using conda
 ```
 conda install scikit-learn
 ```
-6. install Rasa!
+11. Install packaging using conda
 ```
-pip install rasa
+conda install packaging==21.3
 ```
+
 
 ### 2) Run Rasa
 
