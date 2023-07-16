@@ -96,7 +96,7 @@ Open your terminal and use the command below. (Or copy the folder's path and pas
 ```
 cd Rasa
 ```
-Make sure your virtual environment was on
+Make sure to deactivate `(base)` environment using `conda deactivate` before activate your virtual environment `steamhack`
 ```
 conda activate steamhack
 ```
