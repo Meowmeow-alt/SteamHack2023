@@ -5,7 +5,7 @@
 
 - [INTRODUCTION](#introduction)
   
-- [INSTALLATION AND ACTIVATION](#installation-and-activation)
+- [INSTALLATION AND RUN RASA](#installation-and-run-rasa)
   
 - [MY OWN EXPERIENCE](#my-own-experience)
   
@@ -35,58 +35,53 @@ Please feel free to send me feedback about my website by accessing the "Contact 
 
 ---
 
-## **INSTALLATION AND ACTIVATION**
+## **INSTALLATION AND RUN RASA**
 
 ### 1) Installation
-- My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
 
-- You can see the tutorial to download it on Rasa Docs if your computer runs on Windows (I use Macbook, so I don't know much about this process on Windows but it is not very hard, please just follow Rasa Docs): [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
+My website has no back-end code, so all you have to do is install the "Rasa Chatbot" and activate it.
 
-- But if your computer runs on macOS, the installation process can get more difficult and complicated.
+You can see the tutorial to download it on Rasa Docs if your computer runs on Windows (I use Macbook, so I don't know much about this process on Windows but it is not very hard, please just follow Rasa Docs): [This is the link](https://rasa.com/docs/rasa/installation/installing-rasa-open-source)
+
+But if your computer runs on macOS, the installation process can get more difficult and complicated.
 (Just like my Macbook, so besides reading Rasa docs, please follow these steps.)
 
-First, install homebrew and miniforge for MacOS on this page: 
+1. Install homebrew and miniforge for MacOS on this page: 
 - [This is the link for homebrew](https://brew.sh/)
 - [This is the link for miniforge](https://formulae.brew.sh/cask/miniforge)
 
-Second, create the environment with conda.
+2. Create the environment with conda.
 ```
 conda create -n steamhack python=3.10
 ```
-Third, activate the environment.
+3. activate the environment.
 ```
 conda activate steamhack
 ```
-Fourth, install openblas.
+4. install openblas.
 ```
 conda install openblas
 ```
-Fifth, install sickit-learn.
+5. install sickit-learn.
 ```
 conda install scikit-learn
 ```
-Last, install Rasa!
+6. install Rasa!
 ```
 pip install rasa
 ```
 
-### 2) Activation
-
-Create a folder name "Rasa" for all Rasa Chatbot's files.
+### 2) Run Rasa
 
 Open your terminal and use the command below. (Or copy the folder's path and paste it after "cd" as an alternative to "Rasa" phrase.)
 ```
 cd Rasa
 ```
-Activate the environment.
+Make sure your virtual environment was on
 ```
 conda activate steamhack
 ```
-Use this command to train the Chatbot.
-```
-rasa train
-```
-To activate it on the website, use this command and let it run.
+To run the Chatbot on the website, [download my pretrained model](https://drive.google.com/drive/folders/1lyxBtmIWy-R7hcbZd3mjdyU_Xi20-QlA?usp=sharing) and put the file `20230713-231434-cream-puffin.tar.gz` in the folder `Rasa/models`, run this command in terminal
 ```
 rasa run -m models --enable-api --cors "*" --debug
 ```
@@ -94,50 +89,54 @@ Now, the Chatbot should be available on server "http://localhost:5005/webhooks/r
 
 In [`chat.html`](chat.html) file, import the `Chatbot Widget` module present inside [`chat.js`](chat.js) as shown below (My file already had these lines): [This is the link of the creator](https://github.com/JiteshGaikwad/Chatbot-Widget/blob/Widget2.0/docs/instructions.md)
 
+```javascript
+<script>
+    !(function () {
+         let e = document.createElement("script"),
+              t = document.head || document.getElementsByTagName("head")[0];
+         (e.src = "chat.js"),
+              (e.async = !0),
+              (e.onload = () => {
+                   window.ChatbotWidget.default({
+                        rasaServerUrl: "http://localhost:5005/webhooks/rest/webhook", // modify this url 
+                        initialPayload: "",
+                        metadata: {},
+                        botAvatar: "https://cdn-icons-png.flaticon.com/512/8649/8649595.png",
+                        widgetColor: "rgb(255, 164, 164)",
+                        textColor: "white",
+                        userMsgBackgroundColor: "rgb(237, 76, 76)",
+                        botTitle: "Your Bot",
+                        botSubTitle: "",
+                        botMsgBackgroundColor: "#f3eaea",
+                        botResponseDelay: "",
+                        chatHeaderCss: {
+                             textColor: "white",
+                             backgroundColor: "rgb(237, 76, 76)",
+                             enableBotAvatarBorder: true,
+                        },
+                        chatHeaderTextColor: "#4c1d95",
+                        botMsgColor: "black",
+                        embedded: false,
+                        buttonsCss: {
+                             color: "rgb(255, 164, 164)",
+                             backgroundColor: "#e1d7ff",
+                             borderColor: "#4b5563",
+                             borderWidth: "0px",
+                             borderRadius: "999px",
+                             hoverBackgroundColor: "white",
+                             hoverColor: "#4b5563",
+                             hoverborderWidth: "1px",
+                             enableHover: false,
+                        },
+                   });
+              }),
+              t.insertBefore(e, t.firstChild);
+    })();
+</script>
 ```
-     <script>
-          !(function () {
-               let e = document.createElement("script"),
-                    t = document.head || document.getElementsByTagName("head")[0];
-               (e.src = "chat.js"),
-                    (e.async = !0),
-                    (e.onload = () => {
-                         window.ChatbotWidget.default({
-                              rasaServerUrl: "http://localhost:5005/webhooks/rest/webhook",
-                              initialPayload: "",
-                              metadata: {},
-                              botAvatar: "https://cdn-icons-png.flaticon.com/512/8649/8649595.png",
-                              widgetColor: "rgb(255, 164, 164)",
-                              textColor: "white",
-                              userMsgBackgroundColor: "rgb(237, 76, 76)",
-                              botTitle: "Your Bot",
-                              botSubTitle: "",
-                              botMsgBackgroundColor: "#f3eaea",
-                              botResponseDelay: "",
-                              chatHeaderCss: {
-                                   textColor: "white",
-                                   backgroundColor: "rgb(237, 76, 76)",
-                                   enableBotAvatarBorder: true,
-                              },
-                              chatHeaderTextColor: "#4c1d95",
-                              botMsgColor: "black",
-                              embedded: false,
-                              buttonsCss: {
-                                   color: "rgb(255, 164, 164)",
-                                   backgroundColor: "#e1d7ff",
-                                   borderColor: "#4b5563",
-                                   borderWidth: "0px",
-                                   borderRadius: "999px",
-                                   hoverBackgroundColor: "white",
-                                   hoverColor: "#4b5563",
-                                   hoverborderWidth: "1px",
-                                   enableHover: false,
-                              },
-                         });
-                    }),
-                    t.insertBefore(e, t.firstChild);
-          })();
-     </script>
+If you want to train the Chatbot using my data
+```
+rasa train
 ```
 
 ---
