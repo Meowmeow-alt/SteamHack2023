@@ -65,10 +65,6 @@ Fifth, install sickit-learn.
 ```
 pip install scikit-learn
 ```
-Sixth, install scipy.
-```
-brew install scipy
-```
 Last, install Rasa!
 ```
 pip install rasa
@@ -89,10 +85,6 @@ conda activate steamhack
 Use this command to train the Chatbot.
 ```
 rasa train
-```
-Use this command to test the Chatbot.
-```
-rasa shell
 ```
 To activate it on the website, use this command and let it run.
 ```
