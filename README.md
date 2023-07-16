@@ -69,10 +69,6 @@ Sixth, install scipy.
 ```
 brew install scipy
 ```
-Then, install all neccessary libraries with a specific version
-```
-pip install -r requirements.txt
-```
 Last, install Rasa!
 ```
 pip install rasa
